@@ -1,5 +1,6 @@
 var app = angular.module('quoteBook');
 
-app.controller('mainCtrl', function($scope) {
-	$scope.test = "Hello World!";
+app.controller('mainCtrl', function($scope, 'quoteInfo') {
+	$scope.quotesArray = quoteInfo.getData;
 });
+

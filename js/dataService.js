@@ -1,4 +1,4 @@
-var app = angular.module('quoteBook').service('quotes', function() {
+var app = angular.module('quoteBook').service('quoteInfo', function() {
 	var quotes = [
 	    { text: 'Life isn\'t about getting and having, it\'s about giving and being.', author: 'Kevin Kruse'},
 	    { text: 'Whatever the mind of man can conceive and believe, it can achieve', author: 'Napoleon Hill'},
